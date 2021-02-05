@@ -1,0 +1,387 @@
+    1  ls
+    2  pwd
+    3  cd
+    4  ls
+    5  cd Pictures
+    6  pwd
+    7  cd ..
+    8  cd ~
+    9  cd documents/
+   10  mkdir comandos git
+   11  ls
+   12  cd comandos
+   13    rm - r comandos git
+   14  ls
+   15  rm -r comandos git
+   16  rm - r git
+   17  ls documents
+   18  ls 
+   19  cd ..
+   20  ls
+   21  rm - r git
+   22  rm -r git
+   23  ls
+   24  cd comandos
+   25  touch arquivo.txt
+   26  ls
+   27  mkdir nueva
+   28  ls
+   29  cp arquivo.txt nueva
+   30  ls
+   31  ls nueva
+   32  echo 'hola'
+   33   echo 'hola' comando.txt
+   34  echo 'hola' > comando.txt
+   35  cat comando.txt
+   36   cat > comando.txt
+   37  cat comando
+   38  cat comando.txt
+   39  cat >> comando.txt
+   40  cat comando.txt
+   41  help
+   42  help cd
+   43  clear
+   44  history > historico.txt
+   45  cat historico.txt
+   46  git config --global user.name 'Jeanmarie Quijada'
+   47  git config --global user.email 'jeanmarie.q@gmail.com'
+   48  git config user.name
+   49  cd desktop
+   50  ls
+   51  ls .
+   52  ls ..
+   53  cd Desktop
+   54  cd desktop
+   55  git config user.name
+   56  cd Desktop
+   57  mkdir Curso_Git
+   58  cd
+   59  cd desktop
+   60  cd Curso_Git
+   61  git config user.name
+   62  git init
+   63  git status
+   64  echo '#aprendendo usar o Git' > readme.md
+   65  git status
+   66  git add readme.md
+   67  git status
+   68  git commit -m 'commit inicial'
+   69  git status
+   70  echo '##Aula 1' >> readme.md
+   71  git status
+   72  echo 'Jeanmarie Quijada' > participantes.txt 
+   73  git status
+   74  git add.
+   75  git add .
+   76  git status
+   77  git restor --staged participantes.txt
+   78  git restore --staged participantes.txt
+   79  git status
+   80  git add participantes.txt
+   81  git status
+   82  git restore --staged .
+   83  git status
+   84  git commit -am 'alteraçao no readme'
+   85  git status
+   86  git add participantes.txt
+   87  git status
+   88  git commit -m 'adicionado participantes.txt'
+   89  git status
+   90  history >Aula.txt
+   91  git status
+   92  git add .
+   93  git commit -m 'comandos aula 3'
+   94  git status
+   95  git branch
+   96  ls
+   97  cd descktop
+   98  ls desktop
+   99  cd
+  100  cd desktop
+  101  cd curso_Git
+  102  git branch
+  103  clear
+  104  git log
+  105  git log --pretty=oneline
+  106  git checkout HEAD~~
+  107  git checkout master
+  108  git log
+  109  git branch
+  110  git checkout -b 'feature'
+  111  git branch
+  112  touch  Nova_feature
+  113  git status
+  114  git add Nova_feature
+  115  git commit -m 'Adicionar nova feature'
+  116  git log
+  117  git checkout master
+  118  git status
+  119  git log
+  120  touch continuando_master
+  121  git add continuando_master
+  122  git commit -m 'adicionando continuacion na master'
+  123  git log
+  124  git checkout feature
+  125  git log
+  126  git checkout -b feature2 master
+  127  git log
+  128  git branch -d feature2
+  129  git checkout master
+  130  git branch -d feature2
+  131  git log
+  132  git checkout feature2
+  133  clear
+  134  git checkout feature
+  135  git log --pretty=online --graph
+  136  git log --pretty=oneline --graph
+  137  git merge master
+  138  git log
+  139  git log --pretty=oneline --graph
+  140  git reset --hard HEAD~
+  141  git log --pretty=oneline --graph
+  142  git rebase master
+  143  git log --pretty=oneline --graph
+  144  history >Aula_5.txt
+  145  git add Aula_5.txt
+  146  git commit -m 'comandos aula 5'
+  147  clear
+  148  git tag
+  149  git tag -a v0.1 -m 'Ate Aula 5'
+  150  git log pretty=oneline --graph
+  151  git log --pretty=oneline --graph
+  152  git checkout master
+  153  git rebase feature
+  154  git log --pretty=oneline --graph
+  155  history > Aula_6.txt
+  156  git add Aula_6.txt
+  157  git commit -m 'comandos aula 6'
+  158  clear
+  159  git remoto agregar origen https://github.com/jeanmarieq/curso_Git.git
+  160  git remot agregar origen https://github.com/jeanmarieq/curso_Git.gitclear
+  161  clear
+  162  git remote add origin https://github.com/jeanmarieq/curso_Git.git
+  163  git remote
+  164  git push origin master
+  165  ls
+  166  desktop
+  167  ls desktop
+  168  cd curso_Git
+  169  ls Curso_Git
+  170  ls
+  171  cd Curso_Git
+  172  ls desktop
+  173  cd Curso_Git
+  174  pwd
+  175  ls Curso_Git
+  176  ls Curso_Git/
+  177  clear
+  178  git log
+  179  ls
+  180  cd desktop
+  181  cd curso_Git
+  182  git remote
+  183  git push origin master
+  184  git log --pretty=oneline --graph
+  185  git pull origin master
+  186  git log --pretty=oneline --graph
+  187  cat readme.md
+  188  git push origin master --tags
+  189  clear
+  190  ssh-keygen -t rsa -b 4096 -C 'jeanmarie.q@gmail.com'
+  191  ls ~/ .ssh
+  192  ls ~/.ssh
+  193  cat ~/.ssh/id_rsa.pub
+  194  cd ..
+  195  mkdir clone
+  196  cd clone
+  197  ls -a
+  198  git clone git@github.com:jeanmarieq/curso_Git.git
+  199  ls -a
+  200  cd curso_Git
+  201  git log --prety=oneline --graph
+  202  git log --pretty=oneline --graph
+  203  clear
+  204  ls
+  205  cd desktop
+  206  ls..
+  207  ls ..
+  208  ls
+  209  cd desktop
+  210  ls
+  211  cd desktop
+  212  cd curso_Git
+  213  git clone git@github.com:jeanmarieq/aula-26012020.git
+  214  git clone
+  215  git status
+  216  ls
+  217  cd desktop
+  218  cd curso_Git
+  219  git status
+  220  git rm --cachedaula-26012020
+  221  git rm --cached aula-26012020
+  222  git rm
+  223  git status
+  224  git rm --cached aula-26012020/
+  225  history
+  226  git status
+  227  git checkout master
+  228  git log
+  229  git reset --soft HEAD~
+  230  git log
+  231  git status
+  232  git restore --staged readme.md
+  233  git status
+  234  ls
+  235  desktop
+  236  cd desktop
+  237  mkdir clone
+  238  git status
+  239  mkdir clone_aula26
+  240  cd clone_aula26
+  241  ls -a
+  242  git clone git@github.com:jeanmarieq/aula-26012020.git
+  243  ls -a
+  244  cd aula-26012020
+  245  git log --pretty=oneline --graph
+  246  git checkout -b featurejq
+  247  git branch
+  248  touch nova_featurejq
+  249  git status
+  250  git add nova_featurejq
+  251  git commit -m 'Adicionando nova featurejq'
+  252  git log
+  253  git status
+  254  git push origim featurejq
+  255  git push origin featurejq
+  256  cd desktop
+  257  ls
+  258  cd desktop
+  259  cd exercicio aula 4html
+  260  cd exercicio aula 4 html
+  261  ls
+  262  cd exercicio aula 4 HTML
+  263  clear
+  264  cd exercicio aula 4 HTML
+  265  ls
+  266  cd
+  267  ls
+  268  cd desktop
+  269  cd exercicio-aula-4-HTML
+  270  git remote add origin https://github.com/jeanmarieq/exercicio-aula-4-HTML.git
+  271  git status
+  272  git init
+  273  git status
+  274  git add
+  275  git add Imagens
+  276  git add index.html
+  277  git status
+  278  git commit -am exercicio4
+  279  git log --pretty=oneline
+  280  git log --pretty=oneline --graph
+  281  git remote origin https://github.com/jeanmarieq/exercicio-aula-4-HTML.git
+  282  git remote add origin https://github.com/jeanmarieq/exercicio-aula-4-HTML.git
+  283  git remote
+  284  git push origin master
+  285  CLEAR
+  286  git remote
+  287  git status
+  288  git branch
+  289  git remote add origin git@github.com:jeanmarieq/exercicio-aula-4-HTML.git
+  290  cd desktop
+  291  cd exercicio-aula-4-HTML
+  292  git remote add origin git@github.com:jeanmarieq/exercicio-aula-4-HTML.git
+  293  git push origin master
+  294  ls
+  295  cd desktop
+  296  cd Exercicio_6_-HTM
+  297  cd Exercicio_6_ -HTML
+  298  cd Exercicio_6_-HTML
+  299  cd Exercicio6_ HTML
+  300  ls
+  301  cd Exercicio6_ HTML
+  302  cd
+  303  ls
+  304  cd desktop
+  305  cd Exercicio6-HTML
+  306  git status
+  307  git init
+  308  git status
+  309  git add.
+  310  git add .
+  311  git status
+  312  git commit -am exercicio6
+  313  git --pretty=oneline --graph
+  314  git log --pretty=oneline --graph
+  315  git remote add origin git@github.com:jeanmarieq/Exercicio6-HTML.git
+  316  git remote
+  317  git push master
+  318  git push exercicio6
+  319  git push origin master
+  320  cd desktop
+  321  git clone git@github.com:jeanmarieq/html_202102020.git
+  322  cd
+  323  cd desktop
+  324  ls
+  325  cd html_202102020
+  326  git checkout -b jeanmarie
+  327  git status
+  328  git add
+  329  git add jeanmarieq.html
+  330  git status
+  331  git add .
+  332  git status
+  333  git commit -m atualizacion arquivo jeanmarie
+  334  git status
+  335  git restore --staged jeanmarieq.html
+  336  git status
+  337  git status
+  338  git add .
+  339  git status
+  340  git add .
+  341  git status
+  342  git commit -am atualizacion
+  343  git status
+  344  git pull origin jeanmarie
+  345  git status
+  346  git push origin jeanmarie
+  347  cd 
+  348  cd desktop
+  349  ls
+  350  ls
+  351  ls
+  352  cd desktop
+  353  cd Projeto-Front-End
+  354  git status
+  355  git add
+  356  git status
+  357  git add index.html
+  358  git add .
+  359  ls
+  360  git init
+  361  git status
+  362  git status
+  363  git status
+  364  git add .
+  365  git status
+  366  git commit -am head portfólio
+  367  git add .
+  368  git status
+  369  git commit -m headporfolio
+  370  git status
+  371  git commit -m adicionando section
+  372  git commit -m adicionando-section
+  373  git add .
+  374  git status
+  375  git commit -m adicionando-section
+  376  git status
+  377  git add .
+  378  git status
+  379  git commit -m adicionando-nova-section
+  380  git status
+  381  git log --pretty=oneline --graph
+  382  git tag -a portfolio1 -m projecthtml
+  383  git tag
+  384  git remote add origin git@github.com:jeanmarieq/C-Users-jeanm-Desktop-Projeto-Front-End.git
+  385  git remote
+  386  git push origin master
+  387  history > historico.txt
