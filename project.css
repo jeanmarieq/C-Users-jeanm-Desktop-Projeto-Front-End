@@ -13,7 +13,7 @@ header{
     height: 100%;
     overflow: hidden;
     padding: 25vh 0;
-    background: black;
+    background: #00040e;
     background-position: center;
 
 }
@@ -25,6 +25,7 @@ header .title{
     font-weight: 700;
     padding: 15px 0;
     color: #fff;
+    background:#027368;
 }
 
 header figure{
@@ -34,14 +35,77 @@ header figure{
 
 header figure img{
     width: 150px;
-    border right: 50%;
+    border-radius: 50%;
     
 }
 
 header p{
     text-align: center;
-    color: #7e7777;
+    color: #909399;
     font-weight: 700;
     font-size: 1,2em;
 
 }
+
+main{
+    width: 100%;
+    margin-top: 200px;
+}
+
+.About-me{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgb(242, 242,242);
+    padding: 20px 0;
+    margin-bottom: 100px;
+
+}
+.About-me article{
+    width: 60%;
+    margin:auto;
+    line-height: 35px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.redes-sociais {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.redes-sociais img{
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.particularidades {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.parti{
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    background:#027368;
+}
+
+.parti .title{
+    font-weight: 700;
+    color: #00040e;
+    margin: 10px 0;
+}
+
+.parti p{
+    font-weight: 300;
+    color: #fff ;
+}
+
