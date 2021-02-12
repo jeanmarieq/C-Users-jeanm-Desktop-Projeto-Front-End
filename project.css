@@ -109,3 +109,110 @@ main{
     color: #fff ;
 }
 
+.projects{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 300px;
+    
+}
+.projects .title{
+    font-size: 3em;
+    color: #00040e;
+    margin-bottom: 20px;
+}
+    
+.projects p{
+    font-weight: 300;
+    color: black;
+    font-size: 1.1em;
+}
+.cont-projects{
+    width: 100%;
+    padding: 20px;
+    background: #00040e;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.cont-projects h3{
+    font-size: 1.2em;
+    font-weight: 500;
+    
+ }
+
+.cont-projects p{
+    font-weight: 300;
+
+}
+.cont-projects div{
+    background: #027368;
+    margin-top: 20px;
+    padding: 15px;
+    
+}
+
+.Habilidades{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.Habilidades .title{
+    width: 100%;
+    font-size: 3em;
+    color: #444;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.Habilidades div{
+    width: 25%;
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.Habilidades div img{
+    width: 140px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.Habilidades div p{
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer{
+    margin-top: 300px;
+    padding: 30px;
+    background: #00040e;
+}
+
+footer .contato{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.contato h2{
+    font-size: 5em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.contato p{
+    color: #fff;
+    font-weight: bold;
+}
