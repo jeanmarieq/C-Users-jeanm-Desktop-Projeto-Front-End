@@ -147,8 +147,25 @@
         <footer>
             <div class="contato">
                 <h2>Contato</h2>
-                <p>+554199</p>
-                <p>jeanmarie@</p>
+                    <p>
+                        Para entrar em contato, por favor, preencha os campos abaixo e depois clique no botão Enviar.
+                    </p>
+                <form action="" method="post" id="form">
+                    <div class="dados">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" required>
+                    </div>
+                    <div class="dados">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required> 
+                    </div> 
+                    <div class="dados">
+                        <textarea name="Asunto" cols="50" rows="10"></textarea>
+                    </div>
+
+                        <button type="submit">Enviar</button>
+                   
+                </form>
                 <p>&copy; 2021 Todos os direitos reservados</p>
             </div>
         </footer>
