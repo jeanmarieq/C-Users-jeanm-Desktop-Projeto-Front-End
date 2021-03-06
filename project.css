@@ -12,10 +12,9 @@ header{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    padding: 25vh 0;
+    padding: 20vh 0;
     background: #00040e;
     background-position: center;
-
 }
 
 header .title{
@@ -39,17 +38,22 @@ header figure img{
     
 }
 
+header #geo{
+    text-align: center;
+    color: #909399;
+    margin: 10px 0;    
+}
+
 header p{
     text-align: center;
     color: #909399;
     font-weight: 700;
     font-size: 1,2em;
-
 }
 
 main{
     width: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .About-me{
@@ -58,7 +62,7 @@ main{
     text-align: center;
     background: rgb(242, 242,242);
     padding: 20px 0;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
 }
 .About-me article{
@@ -75,16 +79,16 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
+} 
 .redes-sociais img{
     width: 20%;
     margin: 0px 20px;
 }
 
 .particularidades {
-    width: 90%;
+    width: 85%;
     margin: auto;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -112,7 +116,7 @@ main{
 .projects{
     width: 85%;
     margin: auto;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     
 }
 .projects .title{
@@ -130,7 +134,7 @@ main{
     width: 100%;
     padding: 20px;
     background: #00040e;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
     color: #fff;
 }
@@ -159,22 +163,21 @@ main{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .Habilidades .title{
     width: 100%;
     font-size: 3em;
-    color: #444;
+    color: #00040e;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .Habilidades div{
     width: 25%;
     text-align: center;
     margin: 0 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 20px;
 
     display: flex;
@@ -185,31 +188,30 @@ main{
 .Habilidades div img{
     width: 140px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .Habilidades div p{
-    width: 100%;
     font-weight: 700;
     text-align: center;
 }
 
 footer{
-    margin-top: 300px;
-    padding: 30px;
+    margin-top: 100px;
+    padding: 20px;
     background: #00040e;
 }
 
 footer .contato{
-    width: 100%;
+    width: 70%;
     margin: auto;
     text-align: center;
 }
 .contato h2{
-    font-size: 5em;
+    font-size: 4em;
     color: #fff;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .contato p{
     color: #fff;
@@ -225,7 +227,7 @@ form{
 
 form .dados{
     position:relative;
-    margin: 20px;
+    margin: 10px;
     font-weight: 300;
     color: #fff
 
@@ -234,7 +236,7 @@ form .dados{
 input{
     background: none;
     color: #fff; 
-    padding: 10px 10px 10px 5px;
+    padding: 8px 8px 8px 5px;
     display: block;
     width: 100%;
     border: none;
@@ -262,22 +264,13 @@ input{
 textarea{
     background: none;
     color: #fff; 
-    padding: 10px 10px 10px 5px;
+    padding: 8px 8px 8px 5px;
     display: block;
     width: 100%;
     border: none;
     border-bottom: 1px solid;
 }
 
-
-/* .alert{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: red;
-    padding-top: 20px;
-}
- */
 button{
     background: #027368;
     border: none;
@@ -287,3 +280,4 @@ button{
     color: #fff;
     height: 25px;
 }
+
