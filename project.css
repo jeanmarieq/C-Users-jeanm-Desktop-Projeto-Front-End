@@ -221,7 +221,6 @@ form{
     border-radius: 10px;
     width: 50%;
     margin: auto;
-  
 }
 
 form .dados{
@@ -242,14 +241,10 @@ input{
     border-bottom: 1px solid;
 }
 
-label{
-    position: absolute;
-    left: 5px;
-    top: 10px;
-}
+
 .linha{
     position: relative;
-    display: block;
+    display: block; 
     width: 100%;
 }
 
@@ -259,8 +254,10 @@ label{
     width: 0%;
     bottom: 0;
     position: absolute;
+    transition: 0.3s ease width;
     left: 0;
 }
+
 
 textarea{
     background: none;
@@ -273,6 +270,14 @@ textarea{
 }
 
 
+/* .alert{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
+ */
 button{
     background: #027368;
     border: none;

@@ -160,16 +160,17 @@
                         <input type="email" id="email" required><span class="linha"></span>
                     </div> 
                     <div class="dados">
-                        <label for="Asunto">Asunto</label>
-                        <textarea name="Asunto" cols="30" rows="8" required ></textarea>
+                        <label for="assunto">Assunto</label>
+                        <textarea name="assunto" cols="30" rows="8" id="assunto" required></textarea>
                     </div>
 
-                        <button type="submit">Enviar</button>
-                   
+                        <button type="submit" onclick="validar()">Enviar</button>
+                        <p class="alerta" id="alerta"></p>
+                        
                 </form>
                 <p>&copy; 2021 Todos os direitos reservados</p>
             </div>
         </footer>
-       
+       <script src="Main.js"></script>
     </body>
 </html>
