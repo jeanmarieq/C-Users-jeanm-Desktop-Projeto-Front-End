@@ -22,4 +22,4 @@ Estilo com CSS3
   Consumiendo api Quotable con fetch
   
   
-  https://github.io/jeanmarieq/Projeto-Front-End
+  Page: https://jeanmarieq.github.io/Projeto-Front-End/
