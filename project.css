@@ -12,7 +12,7 @@ header{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    padding: 20vh 0;
+    padding: 25vh 0;
     background: #00040e;
     background-position: center;
 }
@@ -157,7 +157,7 @@ main{
 }
 
 .Habilidades{
-    width: 85%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -186,7 +186,7 @@ main{
 }
 
 .Habilidades div img{
-    width: 140px;
+    width: 100px;
     margin: auto;
     margin-bottom: 10px;
 }
