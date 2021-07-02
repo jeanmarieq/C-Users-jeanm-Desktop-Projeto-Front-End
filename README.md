@@ -22,4 +22,4 @@ Estilo com CSS3
   Consumiendo api Quotable con fetch
   
   
-  Page: https://jeanmarieq.github.io/Projeto-Front-End/blob/master/Index.html
+ 
